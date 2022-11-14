@@ -20,17 +20,26 @@ ul {
   text-decoration: none;
 }
 
+.nav-link:hover {
+  transform: scale(1.25);
+  color: #1f2937;
+}
 .logo {
   font-size: 24px;
   color: #f9faf8;
 }
 
-.navbar,
-.section-1,
-footer {
-  background-color: #1f2937;
+.section-1 {
+  background-image: url("./images/rockdanny.jpg");
+  background-size: cover;
+  background-position: center;
+  /*background-color: #1f2937;*/
 }
 
+.navbar,
+footer {
+  background-color: #fdb418;
+}
 .hero-header {
   font-size: 48px;
   font-weight: 900;
@@ -53,8 +62,14 @@ footer {
   width: 500px;
   height: 300px;
   margin-left: 30px;
+  border-radius: 15px;
 }
 
+#hero-left {
+  background-color: RGBA(31, 41, 55, 0.6);
+  padding: 20px;
+  border-radius: 15px;
+}
 .info-section {
   display: flex;
   flex-direction: column;
@@ -75,7 +90,12 @@ footer {
   width: 200px;
   height: 200px;
   border-radius: 25px;
-  border: 3px solid #3882f6;
+  border: 3px solid #1f2937;
+  transition: transform 0.2s;
+}
+
+.info-img:hover {
+  transform: scale(1.25);
 }
 
 .info-text {
@@ -86,7 +106,10 @@ footer {
 .quote-section {
   display: flex;
   flex-direction: column;
-  background-color: #e5e7eb;
+
+  background-color: #fdb418;
+  background-size: 100% 300px;
+  background-position: center;
   justify-content: center;
   align-items: center;
   padding: 100px 0 100px 0;
@@ -113,7 +136,7 @@ blockquote,
 .cta-section {
   display: flex;
   justify-content: space-between;
-  background-color: #3882f6;
+  background-color: #1f2937;
   margin: 100px;
   width: 800px;
   padding: 30px 60px 30px 60px;
@@ -143,15 +166,24 @@ blockquote,
 
 .hero-signup,
 .cta-signup {
-  background-color: #3882f6;
+  background-color: #1f2937;
   border: none;
   color: #f9faf8;
   padding: 5px 20px 5px 20px;
   border-radius: 5px;
   font-weight: bold;
   font-size: 18px;
+  transition: transform 0.2s;
 }
 
+.hero-signup:hover {
+  transform: scale(1.25);
+  background-color: #fdb418;
+}
+.cta-signup:hover {
+  transform: scale(1.25);
+  background-color: #fdb418;
+}
 .cta-signup {
   border: 1px solid #f9faf8;
 }
