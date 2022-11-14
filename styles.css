@@ -107,6 +107,7 @@ blockquote,
 .quoteby {
   display: flex;
   justify-content: flex-end;
+  font-weight: bolder;
 }
 
 .cta-section {
