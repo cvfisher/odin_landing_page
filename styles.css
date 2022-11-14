@@ -5,10 +5,9 @@
 
 .navbar {
   display: flex;
-  border: solid 1px red;
   justify-content: space-between;
   align-items: center;
-  padding: 0 150px 0 150px;
+  padding: 10px 150px 10px 150px;
 }
 
 ul {
@@ -28,7 +27,7 @@ ul {
 
 .navbar,
 .section-1,
-.footer {
+footer {
   background-color: #1f2937;
 }
 
@@ -37,6 +36,7 @@ ul {
   font-weight: 900;
   color: #f9faf8;
 }
+
 .nav-link,
 .hero-subtext {
   font-size: 18px;
@@ -45,8 +45,7 @@ ul {
 
 .hero-section {
   display: flex;
-  padding: 30px 150px 30px 150px;
-  border: 1px solid blue;
+  padding: 50px 150px 50px 150px;
   justify-content: center;
 }
 
@@ -78,7 +77,7 @@ ul {
   border-radius: 25px;
 }
 
-.info-txt {
+.info-text {
   width: 200px;
   text-align: center;
 }
@@ -107,4 +106,59 @@ blockquote,
 .quoteby {
   display: flex;
   justify-content: flex-end;
+}
+
+.cta-section {
+  display: flex;
+  justify-content: space-between;
+  background-color: #3882f6;
+  margin: 100px;
+  width: 800px;
+  padding: 30px 60px 30px 60px;
+  border-radius: 10px;
+}
+
+.cta-right {
+  display: flex;
+  align-items: flex-end;
+}
+
+.cta-header {
+  color: #f9faf8;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.cta-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cta-subtext {
+  color: #e5e7eb;
+}
+
+.hero-signup,
+.cta-signup {
+  background-color: #3882f6;
+  border: none;
+  color: #f9faf8;
+  padding: 5px 20px 5px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.cta-signup {
+  border: 1px solid #f9faf8;
+}
+
+.hero-signup {
+  margin-top: 10px;
+}
+footer {
+  display: flex;
+  padding: 30px 0px 30px 0px;
+  justify-content: center;
+  color: #e5e7eb;
 }
