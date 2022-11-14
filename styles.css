@@ -75,6 +75,7 @@ footer {
   width: 200px;
   height: 200px;
   border-radius: 25px;
+  border: 3px solid #3882f6;
 }
 
 .info-text {
